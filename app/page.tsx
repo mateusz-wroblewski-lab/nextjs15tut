@@ -3,13 +3,7 @@ import Image from "next/image";
 const Home = () => {
   return (
     <div>
-      <h1 className="text-primary-100 text-3xl font-black">My Homepage</h1>
-      <Image
-        src="/me.jpg"
-        alt="Picture of the author"
-        width={500}
-        height={500}
-      />
+      <h1 className="text-3xl font-black text-primary-100">My Homepage</h1>
     </div>
   );
 };
