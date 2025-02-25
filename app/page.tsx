@@ -1,11 +1,9 @@
-import Image from "next/image";
-
-const Home = () => {
-  return (
-    <div>
-      <h1 className="text-3xl font-black text-primary-100">My Homepage</h1>
-    </div>
-  );
-};
+const Home = () => (
+  <>
+    <h1 className="h1-bold text-dark-100 dark:text-light-900">
+      Welcome to the world of Next.js
+    </h1>
+  </>
+);
 
 export default Home;
