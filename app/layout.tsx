@@ -1,15 +1,12 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import React from "react";
+import { SessionProvider } from "next-auth/react";
+import { ReactNode } from "react";
 import "./globals.css";
-
 import { Toaster } from "sonner";
 
 import { auth } from "@/auth";
-
-import ThemeProvider from "../context/Theme";
-
-import { SessionProvider } from "next-auth/react";
+import ThemeProvider from "@/context/Theme";
 
 const inter = localFont({
   src: "./fonts/InterVS.ttf",
@@ -24,16 +21,15 @@ const spaceGrotesk = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "DevFlow",
-  description:
-    "A community-driven platform for asking and answering programming questions. Get help, share knowledge, and collaborate with developers from around the world. Explore topics in web development, mobile app development, algorithms, data structures, and more.",
+  title: "FundacjaWideochirurgii",
+  description: "Fundacja ...",
   icons: {
-    icon: "/images/site-logo.svg",
+    icon: "/images/site-logo-dark.svg",
   },
 };
 
-const RootLayout = async ({ children }: { children: React.ReactNode }) => {
-  const session = await auth();
+const RootLayout = async ({ children }: { children: ReactNode }) => {
+  await auth();
 
   return (
     <html lang="en" suppressHydrationWarning>
