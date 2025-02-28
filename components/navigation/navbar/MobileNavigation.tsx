@@ -1,3 +1,4 @@
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -37,7 +38,7 @@ const MobileNavigation = () => {
             src="/images/site-logo-dark.svg"
             width={35}
             height={35}
-            alt="Logo"
+            alt="Fundacja Logo"
           />
           <p className="h2-bold font-space-grotesk text-dark-100 dark:text-light-900">
             Fundacja

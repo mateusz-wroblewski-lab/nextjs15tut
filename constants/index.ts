@@ -6,25 +6,25 @@ export const sidebarLinks = [
   },
 
   {
-    imgURL: "/icons/home.svg",
+    imgURL: "/icons/suitcase.svg",
     label: "Fundacja",
     route: "/foundation",
   },
 
   {
-    imgURL: "/icons/home.svg",
+    imgURL: "/icons/users.svg",
     label: "Program partnerski",
     route: "/partners",
   },
 
   {
-    imgURL: "/icons/home.svg",
+    imgURL: "/icons/edit.svg",
     label: "Statut",
     route: "/statute",
   },
 
   {
-    imgURL: "/icons/home.svg",
+    imgURL: "/icons/account.svg",
     label: "Użytkownik",
     route: "/profile",
   },
