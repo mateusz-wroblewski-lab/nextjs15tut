@@ -4,15 +4,21 @@ import Link from "next/link";
 import Image from "next/image";
 import ROUTES from "@/constants/routes";
 
-const EventMain = () => {
+const EventMain = ({
+date,
+title,
+subtitle,
+location,
+background,
+}) => {
   return (
     <section className="bg-[url(/banners/wco2024.jpg)] bg-cover rounded-xl">
       <div className="event-gradient rounded-xl">
         <div className="flex flex-col gap-5 p-8  text-white">
-          <h1 className="h1-bold">Date</h1>
-          <h2 className="h2-bold">Title</h2>
-          <h3 className="h3-semibold">Subtitle</h3>
-          <p className="">Location</p>
+          <h1 className="h1-bold">{date}</h1>
+          <h2 className="h2-bold">{title}</h2>
+          <h3 className="h3-semibold">{subtitle}</h3>
+          <p className="">{location}</p>
         </div>
 
         <div className="flex flex-col md:flex-row lg:flex-row gap-3 px-5 py-5">
