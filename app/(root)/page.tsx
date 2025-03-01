@@ -2,6 +2,7 @@ import React from "react";
 import { auth } from "@/auth";
 import EventMain from "@/components/events/EventMain";
 import EventList from "@/components/events/EventList";
+import { EventInfo } from "@/constants";
 
 const Home = async () => {
   const session = await auth();
@@ -10,9 +11,13 @@ const Home = async () => {
 
   return (
     <>
-      <EventMain />
+      <EventMain {...EventInfo[0]}/>
 
-      <EventList />
+      <EventList 
+        title="Poprzednie edycje"
+        events={EvetInfo}
+        containerClassName="mt-28"
+      />
     </>
   );
 };
