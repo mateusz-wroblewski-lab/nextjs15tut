@@ -10,7 +10,7 @@ title,
 subtitle,
 location,
 background,
-}) => {
+}): Event => {
   return (
     <section className="bg-[url(/banners/wco2024.jpg)] bg-cover rounded-xl">
       <div className="event-gradient rounded-xl">
