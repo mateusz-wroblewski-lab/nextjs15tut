@@ -29,3 +29,11 @@ export const sidebarLinks = [
     route: "/profile",
   },
 ];
+
+export const eventLinks = [
+  {
+    imgURL: "/icons/home.svg",
+    label: "Program",
+    route: "/program",
+  },
+];

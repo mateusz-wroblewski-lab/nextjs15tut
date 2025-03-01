@@ -219,6 +219,10 @@ body {
     background: linear-gradient(129deg, #0099ff 0%, #5fb8e2 100%);
   }
 
+  .event-gradient {
+    background: linear-gradient(90deg, #001124cb 0%, #5fb8e270 200%);
+  }
+
   .dark-gradient {
     background: linear-gradient(
       232deg,
