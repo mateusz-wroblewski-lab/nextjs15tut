@@ -40,11 +40,11 @@ export const eventLinks = [
 
 
 export const EventInfo = [
-{
-date: "2025/11/28-29",
-title: "Workshop Chirurgia Ogólna",
-subtitle: "filmy z procedur i warsztaty",
-location: "Hotel Czarny Staw, Nowy Adamów 2",
-background: "/banners/wco2024.jpg",
-},
+  {
+    date: "2025/11/28-29",
+    title: "Workshop Chirurgia Ogólna",
+    subtitle: "filmy z procedur i warsztaty",
+    location: "Hotel Czarny Staw, Nowy Adamów 2",
+    background: "/banners/wco2024.jpg",
+  },
 ];
