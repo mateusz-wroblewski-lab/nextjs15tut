@@ -8,7 +8,7 @@ import SocialAuthForm from "@/components/forms/SocialAuthForm";
 const AuthLayout = async ({ children }: { children: ReactNode }) => {
   const session = await auth();
 
-  if (session) redirect(/);
+  if (session) redirect("/");
  
   return (
     <main className="flex min-h-screen items-center justify-center bg-auth-light bg-cover bg-center bg-no-repeat px-4 py-10 dark:bg-auth-dark">
