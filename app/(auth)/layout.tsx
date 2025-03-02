@@ -1,10 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import { ReactNode } from "react";
+import { auth } from "@/auth";
 
 import SocialAuthForm from "@/components/forms/SocialAuthForm";
 
-const AuthLayout = ({ children }: { children: ReactNode }) => {
+const AuthLayout = async ({ children }: { children: ReactNode }) => {
+  const session = await auth();
+
+  if (session) redirect(/);
+ 
   return (
     <main className="flex min-h-screen items-center justify-center bg-auth-light bg-cover bg-center bg-no-repeat px-4 py-10 dark:bg-auth-dark">
       <section className="light-border background-light800_dark200 shadow-light100_dark100 min-w-full rounded-[10px] border px-4 py-10 sm:min-w-[520px] sm:px-8">
