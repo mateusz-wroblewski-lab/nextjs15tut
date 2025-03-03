@@ -38,13 +38,42 @@ export const eventLinks = [
   },
 ];
 
-
-export const EventInfo = [
+export const EventMainInfo = [
   {
+    id: 0,
     date: "2025/11/28-29",
     title: "Workshop Chirurgia Ogólna",
     subtitle: "filmy z procedur i warsztaty",
     location: "Hotel Czarny Staw, Nowy Adamów 2",
-    background: "/banners/wco2024.jpg",
+    imagebg: "/banners/wco2024.jpg",
+  },
+];
+
+export const EventInfo = [
+  {
+    id: 1,
+    date: "2024/11/28-29",
+    title: "Workshop Chirurgia Ogólna",
+    subtitle: "filmy z procedur i warsztaty",
+    location: "Hotel Czarny Staw, Nowy Adamów 2",
+    imagebg: "/banners/wco2024.jpg",
+  },
+
+  {
+    id: 2,
+    date: "2023/11/28-29",
+    title: "Workshop Chirurgia Ogólna",
+    subtitle: "filmy z procedur i warsztaty",
+    location: "Hotel Czarny Staw, Nowy Adamów 2",
+    imagebg: "/banners/wco2023.jpg",
+  },
+
+  {
+    id: 3,
+    date: "2022/11/28-29",
+    title: "Workshop Chirurgia Ogólna",
+    subtitle: "filmy z procedur i warsztaty",
+    location: "Hotel Czarny Staw, Nowy Adamów 2",
+    imagebg: "/banners/wco2022.jpg",
   },
 ];

@@ -5,25 +5,32 @@ import Image from "next/image";
 import ROUTES from "@/constants/routes";
 
 const EventMain = ({
-date,
-title,
-subtitle,
-location,
-background,
-}): Event => {
+  id,
+  date,
+  title,
+  subtitle,
+  location,
+  imagebg,
+}: Events) => {
   return (
-    <section className="bg-[url(/banners/wco2024.jpg)] bg-cover rounded-xl">
+    <section
+      className="bg-cover rounded-xl"
+      style={{ backgroundImage: `url(${imagebg})` }}
+    >
       <div className="event-gradient rounded-xl">
-        <div className="flex flex-col gap-5 p-8  text-white">
-          <h1 className="h1-bold">{date}</h1>
-          <h2 className="h2-bold">{title}</h2>
+        <div className="flex flex-col gap-5 p-8 text-white">
+          <h1 className="h1-bold !text-[50px]">{date}</h1>
+          <h2 className="h2-bold !text-[50px] !leading-[50px]">{title}</h2>
           <h3 className="h3-semibold">{subtitle}</h3>
-          <p className="">{location}</p>
+          <p className="paragraph-regular">{location}</p>
+          <span className="rounded-full w-10 h-10 flex justify-center items-center bg-slate-600 p-1 ml-3">
+            {id}
+          </span>
         </div>
 
         <div className="flex flex-col md:flex-row lg:flex-row gap-3 px-5 py-5">
           <Button
-            className="bg-transparent  text-light-900  min-h-[41px] rounded-lg border border-white selection:px-4 py-3 shadow-none"
+            className="bg-black/30 text-light-900  min-h-[41px] rounded-lg border border-white selection:px-4 py-3 shadow-none"
             asChild
           >
             <Link href={ROUTES.PROGRAMME} target="_blank">
@@ -38,7 +45,7 @@ background,
           </Button>
 
           <Button
-            className="bg-transparent text-light-900 min-h-[41px] rounded-lg border border-white px-4 py-3 shadow-none"
+            className="bg-black/30 text-light-900 min-h-[41px] rounded-lg border border-white px-4 py-3 shadow-none"
             asChild
           >
             <Link href={ROUTES.CONDITIONS} target="_blank">

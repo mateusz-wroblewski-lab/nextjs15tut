@@ -1,9 +1,6 @@
 const ROUTES = {
   HOME: "/",
 
-  // Events Main Bacground
-  BGMAINEVENT: "bg-[url(/banners/wco2024.jpg)]",
-
   // Events Links
   PROGRAMME:
     "https://drive.google.com/file/d/1uxYrUiATNHOvHcMOnRY-YQIYfou6x2-k/view?usp=drivesdk",
