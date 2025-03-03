@@ -1,7 +1,7 @@
 const ROUTES = {
   HOME: "/",
 
-  // Events Links
+  // Event main links
   PROGRAMME:
     "https://drive.google.com/file/d/1uxYrUiATNHOvHcMOnRY-YQIYfou6x2-k/view?usp=drivesdk",
   CONDITIONS:

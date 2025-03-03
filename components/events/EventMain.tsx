@@ -23,9 +23,6 @@ const EventMain = ({
           <h2 className="h2-bold !text-[50px] !leading-[50px]">{title}</h2>
           <h3 className="h3-semibold">{subtitle}</h3>
           <p className="paragraph-regular">{location}</p>
-          <span className="rounded-full w-10 h-10 flex justify-center items-center bg-slate-600 p-1 ml-3">
-            {id}
-          </span>
         </div>
 
         <div className="flex flex-col md:flex-row lg:flex-row gap-3 px-5 py-5">

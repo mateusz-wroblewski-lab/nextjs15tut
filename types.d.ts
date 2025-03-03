@@ -5,4 +5,6 @@ interface Events {
   subtitle: string;
   location: string;
   imagebg: string;
+  film: string;
+  photos: string;
 }

@@ -55,8 +55,10 @@ export const EventInfo = [
     date: "2024/11/28-29",
     title: "Workshop Chirurgia Ogólna",
     subtitle: "filmy z procedur i warsztaty",
-    location: "Hotel Czarny Staw, Nowy Adamów 2",
+    location: "Hotel Kasor, Cesarka 2, Stryków",
     imagebg: "/banners/wco2024.jpg",
+    film: "https://vimeo.com/1054521790",
+    photos: "https://cloud.studioshouse.com/s/wco2024fotokasor",
   },
 
   {
@@ -64,8 +66,10 @@ export const EventInfo = [
     date: "2023/11/28-29",
     title: "Workshop Chirurgia Ogólna",
     subtitle: "filmy z procedur i warsztaty",
-    location: "Hotel Czarny Staw, Nowy Adamów 2",
+    location: "Hotel Kasor, Cesarka 2, Stryków",
     imagebg: "/banners/wco2023.jpg",
+    film: "https://vimeo.com/1054572628/110390b182",
+    photos: "https://cloud.studioshouse.com/s/wcophotohotelkasor2023",
   },
 
   {
@@ -75,5 +79,7 @@ export const EventInfo = [
     subtitle: "filmy z procedur i warsztaty",
     location: "Hotel Czarny Staw, Nowy Adamów 2",
     imagebg: "/banners/wco2022.jpg",
+    film: "https://vimeo.com/1054577080/54f5de8b01",
+    photos: "https://cloud.studioshouse.com/s/wcophotoczstawnadamow2022",
   },
 ];
